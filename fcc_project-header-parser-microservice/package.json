@@ -1,0 +1,44 @@
+{
+  "name": "fcc_project-header-parser-microservice",
+  "version": "0.0.2",
+  "description": "API project for freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev-start": "./dev-startup.sh",
+    "formatJS": "npx eslint . --fix"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-headerparser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
+  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "keywords": [
+    "freeCodeCamp",
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "axios": "^1.6.8",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  }
+}

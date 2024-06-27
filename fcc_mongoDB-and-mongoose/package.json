@@ -1,0 +1,62 @@
+{
+  "name": "fcc-mongo-mongoose-challenges",
+  "version": "0.0.1",
+  "description": "A boilerplate project",
+  "main": "server.js",
+  "eslintConfig": {
+    "env": {},
+    "globals": {
+      "mongoose": true,
+      "require": true
+    },
+    "extends": ["standard"],
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "plugins": [],
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": "warn",
+      "prefer-const": "warn"
+    },
+    "settings": {}
+  },
+  "scripts": {
+    "start": "./startApp.sh",
+    "dev-start": "./dev-startup.sh",
+    "formatJS": "npx eslint . --fix"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.12.4",
+    "mongodb": "^6.5.0",
+    "mongoose": "^5.11.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-mongomongoose.git"
+  },
+  "keywords": [
+    "node",
+    "mongoose",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0",
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  }
+}

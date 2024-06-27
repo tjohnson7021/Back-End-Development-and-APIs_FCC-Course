@@ -1,0 +1,60 @@
+{
+  "name": "fcc_project_timestamp",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
+  "main": "index.js",
+  "eslintConfig": {
+    "env": {},
+    "globals": {
+      "mongoose": true,
+      "require": true
+    },
+    "extends": [
+      "standard"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "plugins": [],
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": "warn",
+      "prefer-const": "warn"
+    },
+    "settings": {}
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev-start": "./dev-startup.sh"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.12.4",
+    "nodemon": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjohnson7021/fcc-project-timestamp-main"
+  },
+  "bugs": {
+    "url": "https://github.com/tjohnson7021/fcc-project-timestamp-main/issues"
+  },
+  "homepage": "https://github.com/tjohnson7021/fcc-project-timestamp-main#fcc-project-timestamp-main",
+  "author": "tjohnson7021 <work.tiffjohn@gmail.com>",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.1.1",
+    "standard": "^17.1.0"
+  }
+}

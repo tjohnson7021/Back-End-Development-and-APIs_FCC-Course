@@ -1,0 +1,19 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"author": "tiffinij21",
+	"description": "This is a sandbox for me to experiment in and better understand APIs and backend development.",
+	"keywords": ["freecodecamp","npm","node"],
+	"license": "UNLICENSED",
+	"version": "1.0.0",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	}
+}

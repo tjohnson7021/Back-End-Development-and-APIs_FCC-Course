@@ -1,0 +1,37 @@
+{
+	"name": "fcc-exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev-start": "./dev-startup.sh",
+		"formatJS": "npx eslint . --fix"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.16.4",
+		"standard": "^17.1.0",
+		"uuid": "^9.0.1"
+	},
+	"repository": {
+		"url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"express"
+	],
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.0.2",
+		"@eslint/js": "^9.1.1",
+		"eslint": "^8.57.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-n": "^16.6.2",
+		"eslint-plugin-promise": "^6.1.1",
+		"globals": "^15.1.0",
+		"nodemon": "^3.1.0"
+	}
+}
